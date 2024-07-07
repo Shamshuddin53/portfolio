@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+table{
+    text-align: center;
+    margin: auto;
+    border-spacing: 0.5px;
+}
+th, td {
+    padding: 15px;
+  }
+th{
+    font-family: "Montserrat", sans-serif;
+    color: yellow;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.download{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
+.download:hover {
+    background-color: RoyalBlue;
+  }
+
+.intro-para {
+  margin: auto;
+  text-align: center;
+  width: 40rem;
+}
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Yeon Sung", cursive;
+  font-size: 1.25rem;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+
+h2 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: yellow;
+}
+
+.top-container {
+  /* background-color: #e0ebe8; */
+  background-color: #16213e;
+  position: relative;
+  padding: 6.25rem;
+  padding-bottom: 0;
+  height: 39.0625rem;
+}
+.mountain {
+  padding-top: 1.875rem;
+  height: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
+.middle-container {
+  background-color: #041c32;
+  color: white;
+}
+
+.bottom-container {
+  background-color: #041c32;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 60rem;
+  top: 11.25rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 28.125rem;
+  top: 3.125rem;
+}
+
+.cursive {
+  font-family: "Sacramento", cursive;
+  font-size: 4.375rem;
+  color: #4fa095;
+}
+
+.green {
+  color: #4fa095;
+  /* font-size: 1.5625rem; */
+}
+
+.skillImg {
+  width: 9.375rem;
+  height: 9.375rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn {
+  color: yellow;
+}
+
+.skill-row {
+  line-height: 2;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.socials {
+  width: 3em;
+  height: 3em;
+}
+
+hr {
+  color: #b2b2b2;
+  border-style: none;
+  border-top: solid;
+}
+
+#css {
+  float: left;
+}
+#c {
+  float: left;
+}
+#html {
+  float: right;
+}
